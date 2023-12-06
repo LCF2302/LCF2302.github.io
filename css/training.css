@@ -1,0 +1,31 @@
+/* Add styles for the training table */
+#training-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#training-table caption {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#training-table th,
+#training-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#training-table th {
+    background-color: #f2f2f2;
+}
+
+/* Apply alternating row colors */
+#training-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Highlight table row on mouse over */
+#training-table tr:hover {
+    background-color: #ddd;
+}
